@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPINI OF VISITORS"
+        android:background="@color/wood"
+        android:textColor="@color/biru"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/title"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo"
+        />
+
+    <!--DICKY-->
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/dik"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/image_dicky"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dicky~"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/txt_dicky"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempatnya bagus untuk berfoto, saran untuk kesana!!"
+        android:fontFamily="casual"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/txt_dicky"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/txt_dicky2"
+        />
+
+
+    <!--HANIFA-->
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/hans"
+        android:layout_below="@+id/image_dicky"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/image_hanifa"
+        />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Hanifa~"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/image_dicky"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_hnf"
+        />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Lebih cocok untuk wisata keluarga"
+        android:fontFamily="casual"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/txt_hnf"
+        android:id="@+id/txt_hnf2"
+        />
+
+    <!--MONNITA-->
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/poto"
+        android:layout_below="@+id/image_hanifa"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/image_mnt"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monnita~"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/image_hanifa"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_mnt"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiketnya mahal-_-"
+        android:fontFamily="casual"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/txt_mnt"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/txt_mnt2"
+        />
+
+    <!--REYNALDO-->
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/edo"
+        android:layout_below="@+id/image_mnt"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:id="@+id/image_rey"
+        />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Reynaldo~"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/image_mnt"
+        android:id="@+id/txt_rey"
+        />
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Harus ditambah fasilitas baru"
+        android:fontFamily="casual"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/txt_rey"
+        android:id="@+id/txt_rey2"
+        />
+
+
+
+    <!--RISKA-->
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ris"
+        android:layout_below="@+id/image_rey"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/image_rizka"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rizka~"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/image_rey"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_rizka"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cocok untuk anak jaman now"
+        android:fontFamily="casual"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/txt_rizka"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/txt_rizka2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/image_rizka"
+        android:background="#C99E10"
+        android:text="HOME"
+        android:fontFamily="serif"
+        android:onClick="home"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/btn_home"
+        />
+
+
+
+</RelativeLayout>
